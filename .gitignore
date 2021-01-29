@@ -1,0 +1,6 @@
+*.sw?
+profile.cov
+enjoy-chain.yml
+enjoy-chain.yaml
+vendor/
+dist/

@@ -1,0 +1,12 @@
+mongo:
+    image: mongo
+
+
+enjoy-chain:
+    image: dbhi/enjoy-chain
+
+    links:
+        - mongo:mongo
+
+    ports:
+        - 5000:5000

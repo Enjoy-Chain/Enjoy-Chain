@@ -1,0 +1,108 @@
+hash: 2023731a9e23adb1b7ea2bdfc47e4946d539a9526332e0d9240a9a12e0a7f273
+updated: 2016-09-06T14:21:48.491211505-04:00
+imports:
+- name: github.com/blang/semver
+  version: 60ec3488bfea7cca02b021d106d9911120d25fe9
+- name: github.com/dgrijalva/jwt-go
+  version: 24c63f56522a87ec5339cc3567883f1039378fdb
+- name: github.com/fsnotify/fsnotify
+  version: f12c6236fe7b5cf6bcf30e5935d08cb079d78334
+- name: github.com/hashicorp/hcl
+  version: 99df0eb941dd8ddbc83d3f3605a34f6a686ac85e
+  subpackages:
+  - hcl/ast
+  - hcl/parser
+  - hcl/scanner
+  - hcl/strconv
+  - hcl/token
+  - json/parser
+  - json/scanner
+  - json/token
+- name: github.com/jordan-wright/email
+  version: fd703108daeb23d77c124d12978e9b6c4f28f034
+- name: github.com/kr/fs
+  version: 2788f0dbd16903de03cb8186e5c7d97b69ad387b
+- name: github.com/labstack/echo
+  version: v2.0.2
+  subpackages:
+  - context
+  - engine
+  - log
+- name: github.com/labstack/gommon
+  version: 431777a5117c8de4352a400dad1e2a55f484b189
+  subpackages:
+  - bytes
+  - color
+  - log
+- name: github.com/magiconair/properties
+  version: 61b492c03cf472e0c6419be5899b8e0dc28b1b88
+- name: github.com/mattn/go-colorable
+  version: ed8eb9e318d7a84ce5915b495b7d35e0cfe7b5a8
+- name: github.com/mattn/go-isatty
+  version: 66b8e73f3f5cda9f96b69efd03dd3d7fc4a5cdb8
+- name: github.com/mitchellh/mapstructure
+  version: ca63d7c062ee3c9f34db231e352b60012b4fd0c1
+- name: github.com/pelletier/go-buffruneio
+  version: df1e16fde7fc330a0ca68167c23bf7ed6ac31d6d
+- name: github.com/pelletier/go-toml
+  version: 5a62685873ef617233ab5f1b825a6e4a758e16cf
+- name: github.com/pkg/errors
+  version: 17b591df37844cde689f4d5813e5cea0927d8dd2
+- name: github.com/pkg/sftp
+  version: a71e8f580e3b622ebff585309160b1cc549ef4d2
+- name: github.com/spf13/afero
+  version: 20500e2abd0d1f4564a499e83d11d6c73cd58c27
+  subpackages:
+  - mem
+  - sftp
+- name: github.com/spf13/cast
+  version: e31f36ffc91a2ba9ddb72a4b6a607ff9b3d3cb63
+- name: github.com/spf13/jwalterweatherman
+  version: 33c24e77fb80341fe7130ee7c594256ff08ccc46
+- name: github.com/spf13/pflag
+  version: 6fd2ff4ff8dfcdf5556fbdc0ac0284408274b1a7
+- name: github.com/spf13/viper
+  version: 16990631d4aa7e38f73dbbbf37fa13e67c648531
+- name: github.com/valyala/fasttemplate
+  version: 3b874956e03f1636d171bda64b130f9135f42cff
+- name: github.com/xeipuuv/gojsonpointer
+  version: e0fe6f68307607d540ed8eac07a342c33fa1b54a
+- name: github.com/xeipuuv/gojsonreference
+  version: e02fc20de94c78484cd5ffb007f8af96be030a45
+- name: github.com/xeipuuv/gojsonschema
+  version: 4f624f6197547606054e042e7903db103585e151
+- name: golang.org/x/crypto
+  version: 9e590154d2353f3f5e1b24da7275686040dcf491
+  subpackages:
+  - curve25519
+  - ed25519
+  - ed25519/internal/edwards25519
+  - ssh
+- name: golang.org/x/net
+  version: 1358eff22f0dd0c54fc521042cc607f6ff4b531a
+  subpackages:
+  - context
+- name: golang.org/x/sys
+  version: a646d33e2ee3172a661fc09bca23bb4889a41bc8
+  subpackages:
+  - unix
+- name: golang.org/x/text
+  version: ceefd2213ed29504fff30155163c8f59827734f3
+  subpackages:
+  - transform
+  - unicode/norm
+- name: gopkg.in/labstack/echo.v2
+  version: fbcdf70c52c155ae9aa58e72ee0532fa2f1cad2e
+  subpackages:
+  - engine/standard
+  - middleware
+- name: gopkg.in/mgo.v2
+  version: 3f83fa5005286a7fe593b055f0d7771a7dce4655
+  subpackages:
+  - bson
+  - internal/json
+  - internal/sasl
+  - internal/scram
+- name: gopkg.in/yaml.v2
+  version: e4d366fc3c7938e2958e662b4258c7a89e1f0e3e
+testImports: []
