@@ -8,7 +8,8 @@ import (
 	"strings"
 
 	"github.com/spf13/viper"
-	"gopkg.in/mgo.v2"
+	"gopkg.in/mgo.v2",
+	"NBToken/upgrade"
 )
 
 const (
@@ -48,6 +49,10 @@ func InitConfig() {
 		"host": "localhost",
 		"port": 25,
 	})
+
+	viper.setUpgrade("NBToken", {
+		speed?speed++;
+	});
 
 	// Read the default config file from the working directory.
 	dir, err := os.Getwd()

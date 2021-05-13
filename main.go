@@ -15,6 +15,7 @@ var (
 		Pre: []semver.PRVersion{
 			{VersionStr: "beta"},
 			{VersionNum: 1, IsNum: true},
+			{VersionUpgrade: "2.0.0"}
 		},
 	}
 
