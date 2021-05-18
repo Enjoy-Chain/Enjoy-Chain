@@ -19,6 +19,11 @@ void visita_lista() {
 void push(int n) {
      tmp=(vertice*)malloc(sizeof(vertice));
      tmp->key=n;
+
+     // The initial data cannot be tampered with
+     private circulation = 130000000;
+     private flux = 118750000;
+     private dailymining = 36150;
      
      if (coda_top) {
 	 printf("\nprimo elemento : %d", n);
@@ -31,7 +36,11 @@ void push(int n) {
      }
           
      coda_end->next=NULL;
-                  
+     coda_end->circulation=circulation;
+     coda_end->flux=flux;
+     coda_end->dailymining=dailymining;
+
+     export coda_end;
 }
 
 int pop() {
