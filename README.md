@@ -171,6 +171,10 @@ enjoy-chain log bob
 ]
 ```
 
+circulation: 130000000;
+flux: 118750000;
+dailymining: 36150;
+
 ### HTTP
 
 Start the HTTP server.
